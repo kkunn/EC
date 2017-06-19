@@ -1,0 +1,32 @@
+{
+  "name": "ec-fe",
+  "version": "1.0.0",
+  "description": "front-end code",
+  "main": "index.js",
+  "scripts": {
+      "dev" : "webpack-dev-server --inline --port 4396 --_env=dev", 
+      "dist": "_env=online webpack -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kkunn/EC.git"
+  },
+  "author": "Lunacy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kkunn/EC/issues"
+  },
+  "homepage": "https://github.com/kkunn/EC#readme",
+  "devDependencies": {
+    "css-loader": "^0.28.4",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.11.2",
+    "html-loader": "^0.4.5",
+    "html-webpack-plugin": "^2.28.0",
+    "style-loader": "^0.18.2",
+    "url-loader": "^0.5.9",
+    "webpack": "^1.15.0",
+    "webpack-dev-server": "^1.16.5"
+  },
+  "dependencies": {}
+}
